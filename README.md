@@ -1,5 +1,11 @@
 # Markdown Crash Course
 
+**Video Course**
+
+[![Thumbnail](https://img.youtube.com/vi/ftOBvusMHjQ/maxresdefault.jpg)](https://youtu.be/ftOBvusMHjQ)
+
+--- 
+
 ## Basic Syntax
 
 ### Headings
@@ -18,13 +24,20 @@ Below are 6 heading variations.
 
 ###### Heading 6
 
+---
+
 ### Horizontal Rule
+
+3 dashes creates a horizontal line.
 
 ---
 
 ### Text formating
 
-Paragraph line spacing is important. 
+Paragraph line spacing is important.
+This sentence is on the same line even though it's on the next line of the editor because there's no separation of content.
+
+Add an empty line between elements.
 
 *italic text* and _more italic text_
 
@@ -58,11 +71,17 @@ Fenced code block:
 
 ```js
 const sum = (a, b) => a + b
+
+sum(2,2)
 ```
 
 ### Blockquote
 
 > This is a blockquote
+> 
+> more text
+> 
+> > Nexted blockquote
 
 ### Links
 
@@ -77,6 +96,8 @@ const sum = (a, b) => a + b
 ### Images
 
 ![alt text](/codecat.png)
+
+[![alt text](/codecat.png)](https://codecats.xyz)
 
 ## Extended Syntax
 
@@ -94,10 +115,6 @@ Not all extended syntax features work in all markdown applications.
 - [x] Task 1
 - [ ] Task 2
 - [ ] Task 3
-
-### Highlight
-
-Let's highlight ==important words==.
 
 ### Emoji
 
